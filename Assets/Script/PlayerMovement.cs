@@ -19,6 +19,12 @@ public class PlayerMovement : MonoBehaviour
     public float jumpTimeCounter;
     private bool isJumping;
 
+    public float KBForce;
+    public float KBCounter;
+    public float KBTotalTime;
+
+    public bool KnockFromRight;
+
 
     // Update is called once per frame
     void Update()
@@ -64,6 +70,22 @@ public class PlayerMovement : MonoBehaviour
     
     void FixedUpdate()
     {
-        playerRb.velocity = new Vector2 (input * speed, playerRb.velocity.y);
+        if(KBCounter <= 0)
+        {
+            playerRb.velocity = new Vector2 (input * speed, playerRb.velocity.y);
+        }
+        else
+        {
+            if(KnockFromRight == true)
+            {
+                playerRb.velocity = new Vector2(-KBForce, KBForce);
+            }
+            if(KnockFromRight == false)
+            {
+                playerRb.velocity = new Vector2(KBForce, KBForce);
+            }
+
+            KBCounter -= Time.deltaTime;
+        }
     }
 }

@@ -299,6 +299,10 @@ MonoBehaviour:
   groundCheckCircle: 0.3
   jumpTime: 0.35
   jumpTimeCounter: 1
+  KBForce: 6
+  KBCounter: 0
+  KBTotalTime: 0.2
+  KnockFromRight: 0
 --- !u!114 &366571396
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -851,6 +855,68 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1101367963
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1101367964}
+  m_Layer: 0
+  m_Name: patrol point
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1101367964
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1101367963}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -12.38, y: -1.49, z: 0.026793914}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1249737953
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1249737954}
+  m_Layer: 0
+  m_Name: patrol point (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1249737954
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1249737953}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -24.32, y: -1.62, z: 0.026793914}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1330452253
 GameObject:
   m_ObjectHideFlags: 0
@@ -1145,37 +1211,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1632202231
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1632202232}
-  m_Layer: 0
-  m_Name: Deteksi Tanah
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1632202232
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1632202231}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.12, y: -0.77, z: -0.020080317}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1695987293}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1695987292
 GameObject:
   m_ObjectHideFlags: 0
@@ -1206,11 +1241,10 @@ Transform:
   m_GameObject: {fileID: 1695987292}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.12, y: -2.35, z: -0.020080317}
+  m_LocalPosition: {x: -11.32, y: -2.35, z: -0.020080317}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1632202232}
+  m_Children: []
   m_Father: {fileID: 1495682644}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1695987294
@@ -1227,6 +1261,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 2
   playerHealth: {fileID: 366571397}
+  playerMovement: {fileID: 366571395}
 --- !u!70 &1695987295
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1305,7 +1340,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: -2078219295, guid: a65f676996117024eb172c5a27553785, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 1
+  m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1.204, y: 1.7039999}
@@ -1350,13 +1385,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 1695987292}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4b500ab26f8a5f428fc6a2afe56c268, type: 3}
+  m_Script: {fileID: 11500000, guid: fb43b712c94fc9a458045f1bd45d4a77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  KecepatanGerak: 3
-  kekanan: 0
-  DeteksiTanah: {fileID: 1632202232}
-  jarakRaycast: 0.5
+  patrolPoints:
+  - {fileID: 1101367964}
+  - {fileID: 1249737954}
+  moveSpeed: 4
+  patrolDestination: 1
+  playerTransform: {fileID: 366571393}
+  isChasing: 0
+  chaseDistance: 3
 --- !u!1 &2074651804
 GameObject:
   m_ObjectHideFlags: 0
@@ -1500,3 +1539,5 @@ SceneRoots:
   - {fileID: 1330452255}
   - {fileID: 366571393}
   - {fileID: 1495682644}
+  - {fileID: 1101367964}
+  - {fileID: 1249737954}
