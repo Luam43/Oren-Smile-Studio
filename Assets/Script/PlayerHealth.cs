@@ -8,6 +8,7 @@ public class PlayerHealth : MonoBehaviour
     public int maxHealth = 10;
     public int health;
     public Slider slider;
+    private PlayerRespawn playerRespawn;
 
 
     // Start is called before the first frame update
@@ -16,6 +17,7 @@ public class PlayerHealth : MonoBehaviour
         health = maxHealth;
         slider.maxValue = maxHealth;
         slider.value = health;
+        playerRespawn = GameObject.Find("Player").GetComponent<PlayerRespawn>();
     }
 
 public void TakeDamage(int damage)
@@ -25,7 +27,7 @@ public void TakeDamage(int damage)
         
         if(health <= 0)
         {
-            Destroy(gameObject);
+            playerRespawn.RespawnNow();
         }
     }
 }
