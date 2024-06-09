@@ -9,6 +9,8 @@ public class Item : MonoBehaviour
     [SerializeField] private int quantity;
 
     [SerializeField] private Sprite sprite;
+    [TextArea]
+    [SerializeField] private string itemDescription;
 
     private InventoryManager InventoryManager;
 
@@ -22,8 +24,11 @@ public class Item : MonoBehaviour
     {
         if(collision.gameObject.tag == "Player")
         {
-            InventoryManager.AddItem(itemName, quantity, sprite);
-            Destroy(gameObject);
+            int leftOverItems = InventoryManager.AddItem(itemName, quantity, sprite, itemDescription);
+            if (leftOverItems <= 0)
+                Destroy(gameObject);
+            else
+                quantity = leftOverItems;
         }
     }
 }
