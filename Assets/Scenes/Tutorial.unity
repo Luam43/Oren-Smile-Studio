@@ -571,7 +571,72 @@ Grid:
   m_CellGap: {x: 0, y: 0, z: 0}
   m_CellLayout: 0
   m_CellSwizzle: 0
+<<<<<<< Updated upstream
 --- !u!1 &869676160
+=======
+--- !u!1001 &821047020
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1091072163699078894, guid: 314cd7979c08a0b448ca0af98fc4ce00, type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 3789959429363751614, guid: 314cd7979c08a0b448ca0af98fc4ce00, type: 3}
+      propertyPath: m_SortingOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4233191766053037565, guid: 314cd7979c08a0b448ca0af98fc4ce00, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 4233191766053037565, guid: 314cd7979c08a0b448ca0af98fc4ce00, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 4233191766053037565, guid: 314cd7979c08a0b448ca0af98fc4ce00, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4233191766053037565, guid: 314cd7979c08a0b448ca0af98fc4ce00, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4233191766053037565, guid: 314cd7979c08a0b448ca0af98fc4ce00, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4233191766053037565, guid: 314cd7979c08a0b448ca0af98fc4ce00, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4233191766053037565, guid: 314cd7979c08a0b448ca0af98fc4ce00, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4233191766053037565, guid: 314cd7979c08a0b448ca0af98fc4ce00, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4233191766053037565, guid: 314cd7979c08a0b448ca0af98fc4ce00, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4233191766053037565, guid: 314cd7979c08a0b448ca0af98fc4ce00, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 314cd7979c08a0b448ca0af98fc4ce00, type: 3}
+--- !u!1 &841413337
+>>>>>>> Stashed changes
 GameObject:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -672,6 +737,7 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+<<<<<<< Updated upstream
     - target: {fileID: 154628206764971878, guid: e5232c036cb8a9b449aa13d3bcc14380, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -733,6 +799,49 @@ PrefabInstance:
       value: 1700643365
       objectReference: {fileID: 0}
     - target: {fileID: 4812375047419476496, guid: e5232c036cb8a9b449aa13d3bcc14380, type: 3}
+=======
+    - target: {fileID: 2011612969524986321, guid: bae6a535991008842947de96499e78a0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2011612969524986321, guid: bae6a535991008842947de96499e78a0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 2011612969524986321, guid: bae6a535991008842947de96499e78a0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2011612969524986321, guid: bae6a535991008842947de96499e78a0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2011612969524986321, guid: bae6a535991008842947de96499e78a0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2011612969524986321, guid: bae6a535991008842947de96499e78a0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2011612969524986321, guid: bae6a535991008842947de96499e78a0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2011612969524986321, guid: bae6a535991008842947de96499e78a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2011612969524986321, guid: bae6a535991008842947de96499e78a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2011612969524986321, guid: bae6a535991008842947de96499e78a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2011612969524986322, guid: bae6a535991008842947de96499e78a0, type: 3}
+>>>>>>> Stashed changes
       propertyPath: m_Name
       value: Item
       objectReference: {fileID: 0}
@@ -740,7 +849,89 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
+<<<<<<< Updated upstream
   m_SourcePrefab: {fileID: 100100000, guid: e5232c036cb8a9b449aa13d3bcc14380, type: 3}
+=======
+  m_SourcePrefab: {fileID: 100100000, guid: bae6a535991008842947de96499e78a0, type: 3}
+--- !u!4 &1659085344 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2011612969524986321, guid: bae6a535991008842947de96499e78a0, type: 3}
+  m_PrefabInstance: {fileID: 1253203666}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1779260869
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1779260871}
+  - component: {fileID: 1779260870}
+  m_Layer: 0
+  m_Name: Cinemachine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1779260870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1779260869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45e653bab7fb20e499bda25e1b646fea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ExcludedPropertiesInInspector:
+  - m_Script
+  m_LockStageInInspector: 
+  m_StreamingVersion: 20170927
+  m_Priority: 10
+  m_StandbyUpdate: 2
+  m_LookAt: {fileID: 0}
+  m_Follow: {fileID: 1659085344}
+  m_Lens:
+    FieldOfView: 60
+    OrthographicSize: 5
+    NearClipPlane: 0.3
+    FarClipPlane: 1000
+    Dutch: 0
+    ModeOverride: 0
+    LensShift: {x: 0, y: 0}
+    GateFit: 2
+    FocusDistance: 10
+    m_SensorSize: {x: 1, y: 1}
+  m_Transitions:
+    m_BlendHint: 0
+    m_InheritPosition: 0
+    m_OnCameraLive:
+      m_PersistentCalls:
+        m_Calls: []
+  m_LegacyBlendHint: 0
+  m_ComponentOwner: {fileID: 841413338}
+--- !u!4 &1779260871
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1779260869}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.1, y: 3.46, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 841413338}
+  - {fileID: 19417862}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> Stashed changes
 --- !u!1 &1845161646
 GameObject:
   m_ObjectHideFlags: 0
@@ -1200,6 +1391,7 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+<<<<<<< Updated upstream
   - first: {x: 93, y: -7, z: 0}
     second:
       serializedVersion: 2
@@ -1310,6 +1502,8 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+=======
+>>>>>>> Stashed changes
   - first: {x: -2, y: -6, z: 0}
     second:
       serializedVersion: 2
@@ -1920,6 +2114,7 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+<<<<<<< Updated upstream
   - first: {x: 59, y: -6, z: 0}
     second:
       serializedVersion: 2
@@ -2270,6 +2465,8 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+=======
+>>>>>>> Stashed changes
   - first: {x: -9, y: -5, z: 0}
     second:
       serializedVersion: 2
@@ -2950,6 +3147,7 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+<<<<<<< Updated upstream
   - first: {x: 59, y: -5, z: 0}
     second:
       serializedVersion: 2
@@ -3290,6 +3488,8 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+=======
+>>>>>>> Stashed changes
   - first: {x: -9, y: -4, z: 0}
     second:
       serializedVersion: 2
@@ -3790,6 +3990,7 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+<<<<<<< Updated upstream
   - first: {x: 59, y: -4, z: 0}
     second:
       serializedVersion: 2
@@ -4120,6 +4321,8 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+=======
+>>>>>>> Stashed changes
   - first: {x: -9, y: -3, z: 0}
     second:
       serializedVersion: 2
@@ -4451,8 +4654,13 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+<<<<<<< Updated upstream
   m_SortingLayerID: -239445283
   m_SortingLayer: 1
+=======
+  m_SortingLayerID: 1667960627
+  m_SortingLayer: 0
+>>>>>>> Stashed changes
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
@@ -4562,6 +4770,12 @@ SceneRoots:
   m_Roots:
   - {fileID: 23875037}
   - {fileID: 464137034}
+<<<<<<< Updated upstream
   - {fileID: 1943434948}
   - {fileID: 287160534}
   - {fileID: 1314773883}
+=======
+  - {fileID: 1253203666}
+  - {fileID: 1779260871}
+  - {fileID: 821047020}
+>>>>>>> Stashed changes
