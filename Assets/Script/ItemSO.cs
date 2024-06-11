@@ -13,7 +13,7 @@ public class ItemSO : ScriptableObject
 
     public void UseItem()
     {
-        PlayerHealth playerHealth = GameObject.Find("HealthManager")?.GetComponent<PlayerHealth>();
+        PlayerHealth playerHealth = GameObject.Find("Player")?.GetComponent<PlayerHealth>();
         if (playerHealth == null)
         {
             Debug.LogWarning("PlayerHealth component not found!");
