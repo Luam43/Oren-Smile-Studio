@@ -1347,9 +1347,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c4f5b4349913a940bbd5e8686db26f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
   health: 0
   slider: {fileID: 1500662790}
+  currentHealth: 0
+  maxHealth: 10
 --- !u!114 &366571398
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1644,7 +1645,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerTransform: {fileID: 366571393}
   offset: {x: 0, y: 0, z: -10}
-  smootSpeed: 0.5
+  smootSpeed: 1.5
 --- !u!1 &540033342
 GameObject:
   m_ObjectHideFlags: 0
@@ -5543,6 +5544,8 @@ MonoBehaviour:
   - {fileID: 2132571782}
   - {fileID: 1455949919}
   - {fileID: 1282220347}
+  itemSOs:
+  - {fileID: 11400000, guid: a393d0dfa84e9884a8902ae76d34505a, type: 2}
 --- !u!114 &1709423871
 MonoBehaviour:
   m_ObjectHideFlags: 0

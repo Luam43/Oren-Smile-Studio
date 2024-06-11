@@ -13,12 +13,23 @@ public class ItemSO : ScriptableObject
 
     public void UseItem()
     {
-        if (statToChange == StatToChange.health)
+        PlayerHealth playerHealth = GameObject.Find("HealthManager")?.GetComponent<PlayerHealth>();
+        if (playerHealth == null)
         {
-            GameObject.Find("HealthManager").GetComponent<PlayerHealth>().ChangeHealth(amountToChangeStat);
+            Debug.LogWarning("PlayerHealth component not found!");
+            return;
         }
-        
-        // Implement other stat and attribute changes here
+
+        switch (statToChange)
+        {
+            case StatToChange.health:
+                playerHealth.ChangeHealth(amountToChangeStat);
+                break;
+            // Add cases for other stats like mana, stamina if needed
+            default:
+                Debug.LogWarning("Stat change type not supported!");
+                break;
+        }
     }
 
     public enum StatToChange
