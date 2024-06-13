@@ -3812,6 +3812,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 3789959429363751614, guid: 314cd7979c08a0b448ca0af98fc4ce00, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -423055766, guid: 2cffb073ae1799f4d85aa13d4e0de6e9, type: 3}
+    - target: {fileID: 3789959429363751614, guid: 314cd7979c08a0b448ca0af98fc4ce00, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3789959429363751614, guid: 314cd7979c08a0b448ca0af98fc4ce00, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4233191766053037565, guid: 314cd7979c08a0b448ca0af98fc4ce00, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.14
@@ -3856,6 +3868,14 @@ PrefabInstance:
       propertyPath: slider
       value: 
       objectReference: {fileID: 1500662790}
+    - target: {fileID: 5145301789419112757, guid: 314cd7979c08a0b448ca0af98fc4ce00, type: 3}
+      propertyPath: maxHealth
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5145301789419112757, guid: 314cd7979c08a0b448ca0af98fc4ce00, type: 3}
+      propertyPath: currentHealth
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
