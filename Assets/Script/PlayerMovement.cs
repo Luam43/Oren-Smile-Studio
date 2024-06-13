@@ -24,12 +24,14 @@ public class PlayerMovement : MonoBehaviour
     public float KBTotalTime;
 
     public bool KnockFromRight;
+    public Animator anim;
 
 
     // Update is called once per frame
     void Update()
     {
         input = Input.GetAxisRaw("Horizontal");
+        anim.SetFloat("horizontal", Mathf.Abs(input));
         if(input < 0)
         {
             spriteRenderer.flipX = true;

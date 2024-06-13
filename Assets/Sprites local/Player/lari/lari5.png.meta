@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 09a74bd5d7bb0c6429124d7df3df4d27
+guid: d95d66b0f52876b4989dcb38f007d0b1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: diem2_0
+      name: lari5_0
       rect:
         serializedVersion: 2
-        x: 320
-        y: 20
-        width: 160
-        height: 350
+        x: 20
+        y: 0
+        width: 290
+        height: 310
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,8 +111,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2e5fcb195a65e04a805122a6ace6c34
-      internalID: -1532609261
+      spriteID: 0c87a16b77d67a045a39f5de39e51a50
+      internalID: 1143586821
       vertices: []
       indices: 
       edges: []
@@ -128,7 +128,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      diem2_0: -1532609261
+      lari5_0: 1143586821
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
