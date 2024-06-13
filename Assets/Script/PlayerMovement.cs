@@ -42,6 +42,10 @@ public class PlayerMovement : MonoBehaviour
         }
 
         isGrounded = Physics2D.OverlapCircle(feetPosition.position, groundCheckCircle, groundLayer);
+        anim.SetBool("isJumping", !isGrounded);
+
+        anim.SetFloat("verticalSpeed", playerRb.velocity.y);
+
 
         if (isGrounded == true && Input.GetButtonDown("Jump"))
         {
