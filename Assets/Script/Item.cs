@@ -2,10 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Item : MonoBehaviour
 {
     public string itemName;
-    
+
+    private bool pickUpAllowed;
+
     public int quantity;
 
     [SerializeField] private Sprite sprite;
@@ -20,15 +23,34 @@ public class Item : MonoBehaviour
         InventoryManager = GameObject.Find("InventoryCanvas").GetComponent<InventoryManager>();
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    void Update()
     {
-        if(collision.gameObject.tag == "Player")
+        if (pickUpAllowed && Input.GetKeyDown(KeyCode.E))
+            PickUp();
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
         {
             int leftOverItems = InventoryManager.AddItem(itemName, quantity, sprite, itemDescription);
             if (leftOverItems <= 0)
-                Destroy(gameObject);
+                pickUpAllowed = true;
             else
                 quantity = leftOverItems;
         }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            pickUpAllowed = false;
+        }
+    }
+
+    private void PickUp()
+    {
+        Destroy(gameObject);
     }
 }
