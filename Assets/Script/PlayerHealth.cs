@@ -13,7 +13,7 @@ public class PlayerHealth : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        currentHealth = maxHealth;
+        
         slider.maxValue = maxHealth;
         slider.value = currentHealth;
         playerRespawn = GameObject.Find("Player").GetComponent<PlayerRespawn>();

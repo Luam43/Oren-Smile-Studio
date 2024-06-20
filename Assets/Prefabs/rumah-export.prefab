@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5063965862890508426}
   - component: {fileID: 5004838086037405036}
-  - component: {fileID: 341182624492392599}
   m_Layer: 0
   m_Name: rumah-export
   m_TagString: Untagged
@@ -87,21 +86,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &341182624492392599
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1117111326494421889}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e46a35396bf2a04fbc5680d0cb6dd4b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetPosition: {fileID: 0}
-  playerInRange: 0
-  interactButton: {fileID: 0}
 --- !u!1 &5349222025567703437
 GameObject:
   m_ObjectHideFlags: 0

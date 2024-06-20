@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Potion
   statToChange: 1
-  amountToChangeStat: 3
+  amountToChangeStat: 25
   attributeToChange: 1
   amountToChangeAttribute: 2

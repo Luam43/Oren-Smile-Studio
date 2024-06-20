@@ -79,7 +79,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1008586477
-  m_SortingLayer: 4
+  m_SortingLayer: 6
   m_SortingOrder: 1
   m_Sprite: {fileID: 587531835, guid: 0d7f035b6496e1f408fa70e31a5a8aad, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -167,7 +167,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRb: {fileID: 2029694922008215154}
-  speed: 7
+  speed: 8.5
   input: 0
   spriteRenderer: {fileID: 3789959429363751614}
   jumpForce: 8
@@ -196,7 +196,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
-  currentHealth: 100
+  currentHealth: 50
   slider: {fileID: 0}
 --- !u!114 &8714734042603038725
 MonoBehaviour:
