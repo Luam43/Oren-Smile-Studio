@@ -4,4 +4,5 @@ aset item : [item](https://drive.google.com/drive/folders/1Ax-ac3D6fGJ4FuCM7-7v3
 tilemap : [forest tilemap](https://drive.google.com/drive/folders/1HnjBBO2CvOKBFxPPS3UW229hxmhVoe6Y?usp=drive_link) <br>
 UI : [button UI](https://drive.google.com/drive/folders/1yrc90-TTx8zwv8wY3-mx1objQ1n02qK8?usp=sharing) <br>
 Title : [title UI](https://drive.google.com/drive/folders/1WplgwXXVfQd03wu3MygZlLfVyzjR7w6x?usp=drive_link) <br>
-Sound : [Sound Effect](https://drive.google.com/drive/folders/1JF4MPMB43tX5NTyONi3flM7U23lPp1z6?usp=sharing)
+Sound : [Sound Effect](https://drive.google.com/drive/folders/1JF4MPMB43tX5NTyONi3flM7U23lPp1z6?usp=sharing) <br>
+aset non pixel : [non pixel](https://drive.google.com/drive/folders/1eLPBzllG_BvzQ4Ih-JBwstcdqvn1tvde?usp=sharing)
